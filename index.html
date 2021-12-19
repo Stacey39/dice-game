@@ -10,7 +10,15 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-
+    <div class="PLAY">You rolled: <span id="rollnum">One</span></div>
+    <div class="dice">
+      <img src="img/dice1.svg" alt="1" class="face" id="face">
+    </div>
+    <button type="button" class="roll" id="roll">Roll the dice</button>
+  
+    <p>Last Throw <span id="last">0</span></p>
+    <p>Current Throw <span id="now">0</span></p>
+    <p id="win"></p>
     <!--
       Build a "static prototype" interface for the application using only
       HTML & CSS (note: images are provided), such that the document's 
